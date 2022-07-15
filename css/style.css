@@ -18,9 +18,10 @@ img {
 }
 
 .btn {
-	border: 3px solid #000;
+	background: #31aa39;
+	border-radius: 30px;
 	padding: 10px 30px;
-	color: #000;
+	color: #fff;
 	font-size: 14px;
 	line-height: 20px;
 	text-transform: uppercase;
@@ -29,8 +30,7 @@ img {
 }
 
 .btn:hover {
-	color: #fff;
-	border-color: #fff;
+	background: #006600;
 }
 
 .btn.btn-preto:hover {
@@ -83,19 +83,19 @@ img {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background: #000; 
+	background: rgb(107,0,5); 
 	padding: 15px 0;
 	z-index: 10;
 }
 
 .header_menu {
-	text-align: right;
+	text-align: left;
 }
 
 .header_menu ul li {
 	display: inline-block;
-	margin-left: 25px;
-	margin-top: 20px;
+	margin-left: 50px;
+	margin-top: 50px;
 }
 
 .header_menu ul li a {
@@ -103,9 +103,9 @@ img {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 20px;
-	padding: 10px 0;
+	padding: 40px 0;
 }
 
 .header_menu ul li a:hover {
@@ -123,7 +123,7 @@ img {
 	height: 380px;
 	background-color: #0088ff;
 	background-size: cover;
-	margin-top: 92px;
+	margin-top: 170px;
 	text-align: center;
 	padding-top: 80px;
 }
