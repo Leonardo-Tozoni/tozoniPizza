@@ -207,7 +207,7 @@ img {
 	line-height: 30px;
 	font-weight: bold;
 	letter-spacing: .1em;
-	color: #000;
+	color: rgb(107,0,5);
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 40px;
@@ -218,7 +218,7 @@ img {
 	display: block;
 	width: 60px;
 	height: 3px;
-	background: #000;
+	background: rgb(107,0,5);
 	margin: 8px auto;
 }
 
@@ -334,7 +334,9 @@ img {
 }
 
 .produtos_lista li{
-	background: white;
+	background: #fffaf2;
+	box-shadow: 3px 4px 4px silver;
+	border-radius: 10px;
 	text-align: center;
 }
 
@@ -357,7 +359,7 @@ img {
 	display: block;
 	width: 60px;
 	height: 3px;
-	background: #fff;
+	background: #fffaf2;
 	margin: 2px auto;
 }
 
@@ -368,7 +370,8 @@ img {
 }
 
 .produtos_icone {
-	background: rgb(107,0,5);
+	background:#fffaf2;
+	border-radius: 10px;
 	padding: 20px;
 }
 
