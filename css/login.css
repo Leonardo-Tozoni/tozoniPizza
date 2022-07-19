@@ -282,23 +282,6 @@ img {
 	color: #FFF;
 }
 
-/* Introdução */
-
-.introducao {
-	width: 100%;
-	height: 203px;
-	background-size: cover;
-	margin-top: 170px;
-	text-align: center;
-}
-
-.introducao h1 {
-	font-size: 48px;
-	color: rgb(107,0,5);
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
 /*Introducao Interna*/
 
 .introducao-interna {
@@ -325,29 +308,25 @@ img {
 	margin: 6px auto 10px auto;
 }
 
-/*Portfólio*/
+/*Conteúdo*/
 
-.portfolio {
-	width: 100%;
-	background: rgb(107,0,5);
-	padding: 40px 0;
-	text-align: center;
+.login {
+  margin-top: 300px;
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 60px;
+  border: none;
 }
 
-.portfolio .subtitulo {
-	color: #fff;
+.input {
+  width: 250px;
+  border-radius: 5px;
+  border: grey 1 px;
 }
 
-.portfolio .subtitulo:after {
-	background: #fff;
-}
-
-.portfolio_lista a:last-child {
-	margin-top: 20px;
-}
-
-.portfolio .call a {
-	color: #fff;
+.notification {
+  display: none;
 }
 
 /*Footer*/
@@ -377,21 +356,6 @@ footer a{
 
 .cardapio {
 	margin-bottom: 60px;
-}
-
-.login {
-  margin-top: 300px;
-  display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin-bottom: 60px;
-  border: none;
-}
-
-.input {
-  width: 250px;
-  border-radius: 5px;
-  border: grey 1 px;
 }
 
 /*JAVASCRIPT*/
