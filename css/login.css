@@ -168,6 +168,7 @@ h1,h2,h3,h4,h5,h6,p,a,ul{
 
 body {
 	font-family: 'PT Sans', Helvetica, sans-serif;
+  background: #FFFAF2;
 }
 
 p {
@@ -183,6 +184,7 @@ img {
 
 .btn {
 	background: #31aa39;
+  border: none;
 	border-radius: 8px;
 	padding: 10px 30px;
 	color: #fff;
@@ -323,7 +325,7 @@ img {
 	margin: 6px auto 10px auto;
 }
 
-/*Monte Sua Pizza*/
+/*Portfólio*/
 
 .portfolio {
 	width: 100%;
@@ -348,18 +350,12 @@ img {
 	color: #fff;
 }
 
-.contato_mapa {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin-bottom: 60px;
-}
-
 /*Footer*/
 
 footer {
 	background: green;
   bottom: 0;
+  position: fixed;
   width: 100%;
   text-align: center;
 }
@@ -377,6 +373,25 @@ footer:hover {
 
 footer a{
 	color: #FFF;
+}
+
+.cardapio {
+	margin-bottom: 60px;
+}
+
+.login {
+  margin-top: 300px;
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 60px;
+  border: none;
+}
+
+.input {
+  width: 250px;
+  border-radius: 5px;
+  border: grey 1 px;
 }
 
 /*JAVASCRIPT*/

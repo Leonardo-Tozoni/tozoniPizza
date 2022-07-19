@@ -1,22 +1,49 @@
 <!DOCTYPE html>
-<html>
-    
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sistema de Login - PHP + MySQL - Canal TI</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/login.css">
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Tozoni Pizza</title>
+		<meta name="description" content="O melhor da pizza italiana">
+
+		<meta property="og:type" content="website"/>
+		<meta property="og:title" content="Tozoni Pizza"/>
+		<meta property="og:description" content="O melhor da pizza italiana"/>
+		<meta property="og:url" content="http://tozonipizza.com"/>
+		<meta property="og:image" content="http://tozoniPizza.com/img/og-image.png"/>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<link rel="stylesheet" href="css/login.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+		<script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
-    <section class="hero is-success is-fullheight">
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="img/tozoniPizza.png" alt="hex">
+            </a>
+            <nav class="grid-12 header_menu">
+                <ul>
+                    <li><a href="cardapio.html">Cardápio</a></li>
+                    <li><a href="localizacao.html">Localização</a></li>
+                    <li><a href="monte-sua-pizza.html">Monte Sua Pizza</a></li>
+                    <li><a href="./login.html"><img src=".//img/login.svg" alt=""></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="login">
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div class="column is-4 is-offset-4">
-                    <h3 class="title has-text-grey">Sistema de Login</h3>
                     <div class="notification is-danger">
                       <p>ERRO: Usuário ou senha inválidos.</p>
                     </div>
@@ -33,13 +60,28 @@
                                     <input name="senha" class="input is-large" type="password" placeholder="Sua senha">
                                 </div>
                             </div>
-                            <button type="submit" class="button is-block is-link is-large is-fullwidth">Entrar</button>
+                            <button type="submit" class="btn">Entrar</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-</body>
+
+    <footer>
+        <div class="copy">
+            <div class="container">
+                <p class="grid-16">Copyright © 2022 Tozoni Pizza | Feito com ❤️ por <a href="http://github.com/Leonardo-Tozoni" target="_blank"> Leonardo Tozoni </a></p>
+            </div>
+        </div>
+    </footer>
+
+<!-- JavaScript -->
+<script src="./js/simple-anime.js"></script>
+<script src="./js/script.js"></script>
+<!-- JavaScript -->
+
+        </html>
+    </body>
 
 </html>
