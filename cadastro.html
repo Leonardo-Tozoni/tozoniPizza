@@ -1,17 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt br">
-<head>
-    <title>Cadastro</title>
-    
-</head>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Tozoni Pizza</title>
+		<meta name="description" content="O melhor da pizza italiana">
+
+		<meta property="og:type" content="website"/>
+		<meta property="og:title" content="Tozoni Pizza"/>
+		<meta property="og:description" content="O melhor da pizza italiana"/>
+		<meta property="og:url" content="http://tozonipizza.com"/>
+		<meta property="og:image" content="http://tozoniPizza.com/img/og-image.png"/>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<link rel="stylesheet" href="css/cadastro.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+		<script>document.documentElement.classList.add("js");</script>
+	</head>
+
 <body>
-    <div>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="img/tozoniPizza.png" alt="hex">
+            </a>
+            <nav class="grid-12 header_menu">
+                <ul>
+                    <li><a href="cardapio.html">Cardápio</a></li>
+                    <li><a href="localizacao.html">Localização</a></li>
+                    <li><a href="monte-sua-pizza.html">Monte Sua Pizza</a></li>
+                    <li><a href="./login.html"><img src=".//img/login.svg" alt=""></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="cadastro">
         <form class="formulario" method="POST" action="cadastro.php">  <!-- inicio do cabeçalho--> 
-            <h1>Cadastro De Usuario</h1>                     
-                <input type="text" name="usuario" id="usuario" placeholder='suario' required>
-                <input type="password" name="senha" id="senha" placeholder='senha' required>
-                <button class="botao" type="submit"> Concluido</button>
+            <h3 class="novo-cadastro">Novo Cadastro</h3>                     
+                <input type="text" name="usuario" id="usuario" placeholder='usuario*' required>
+                <input type="password" name="senha" id="senha" placeholder='senha*' required>
+                <p>Campos Obrigatórios *</p>
+                <button class="btn" type="submit"> Concluido</button>
         </form>                     
     </div>
+
+    <footer>
+        <div class="copy">
+            <div class="container">
+                <p class="grid-16">Copyright © 2022 Tozoni Pizza | Feito com ❤️ por <a href="http://github.com/Leonardo-Tozoni" target="_blank"> Leonardo Tozoni </a></p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -189,7 +189,7 @@ img {
 	padding: 10px 30px;
 	color: #fff;
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 22px;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: .1em;
@@ -310,7 +310,7 @@ img {
 
 /*Conteúdo*/
 
-.login {
+.cadastro {
   margin-left: 130px;
   margin-top: 300px;
   display: flex;
@@ -320,27 +320,14 @@ img {
   border: none;
 }
 
-.column {
-  margin-left: 400px;
-}
-
-.input {
+input {
   width: 250px;
   border-radius: 5px;
   border: grey 1 px;
 }
 
-.notification {
-  display: none;
-}
-
-/*separador*/
-
-.vertical {
-  border-left: 1px solid grey;
-  height: 200px;
-  position:absolute;
-  left: 50%;
+.novo-cadastro {
+  font-size: 25px;
 }
 
 .cadastro {
