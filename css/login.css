@@ -311,12 +311,17 @@ img {
 /*Conteúdo*/
 
 .login {
+  margin-left: 130px;
   margin-top: 300px;
   display: flex;
 	flex-direction: row;
 	justify-content: center;
 	margin-bottom: 60px;
   border: none;
+}
+
+.column {
+  margin-left: 400px;
 }
 
 .input {
@@ -327,6 +332,24 @@ img {
 
 .notification {
   display: none;
+}
+
+/*separador*/
+
+.vertical {
+  border-left: 1px solid grey;
+  height: 200px;
+  position:absolute;
+  left: 50%;
+}
+
+.cadastro {
+  margin-right: 550px;
+  text-align: left;
+}
+
+.texto-cadastro {
+  font-size: 18px;
 }
 
 /*Footer*/
