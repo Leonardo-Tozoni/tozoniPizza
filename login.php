@@ -18,10 +18,9 @@ $row = mysqli_num_rows($resultado);
 
 if($row == 1){
     $_SESSION['usuario'] = $usuario;
-    header('Location: painel.php');
+    header('Location: index.html');
     exit();
 }else{
-    $_SESSION['erro'] = true;
     header('Location: login.html');
     exit();
 }
