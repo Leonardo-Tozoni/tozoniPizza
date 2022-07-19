@@ -21,6 +21,7 @@ if($row == 1){
     header('Location: painel.php');
     exit();
 }else{
-    header('Location: index.html');
+    $_SESSION['erro'] = true;
+    header('Location: login.html');
     exit();
 }
