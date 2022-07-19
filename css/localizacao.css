@@ -323,7 +323,7 @@ img {
 	margin: 6px auto 10px auto;
 }
 
-/*Portfólio*/
+/*Monte Sua Pizza*/
 
 .portfolio {
 	width: 100%;
@@ -348,6 +348,13 @@ img {
 	color: #fff;
 }
 
+.contato_mapa {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 60px;
+}
+
 /*Footer*/
 
 footer {
@@ -367,10 +374,6 @@ footer:hover {
 
 footer a{
 	color: #FFF;
-}
-
-.contato_mapa {
-	margin-bottom: 60px;
 }
 
 /*JAVASCRIPT*/
