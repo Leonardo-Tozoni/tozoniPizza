@@ -4,4 +4,3 @@ create table usuarios (
    senha varchar(32) not null
    );
 
-insert into usuarios (usuario, senha) values ('allef', md5('teste'))
