@@ -61,7 +61,7 @@ img{
 }
 
 button,input,optgroup,select,textarea{
-	font-family:inherit;font-size:100%;line-height:1.15;margin:0
+	font-family:inherit;font-size:100%;line-height:2.15;margin:0
 }
 
 button,input{
@@ -168,6 +168,7 @@ h1,h2,h3,h4,h5,h6,p,a,ul{
 
 body {
 	font-family: 'PT Sans', Helvetica, sans-serif;
+  background: #FFFAF2;
 }
 
 p {
@@ -183,6 +184,7 @@ img {
 
 .btn {
 	background: #31aa39;
+  border: none;
 	border-radius: 8px;
 	padding: 10px 30px;
 	color: #fff;
@@ -280,11 +282,93 @@ img {
 	color: #FFF;
 }
 
+/*Introducao Interna*/
+
+.introducao-interna {
+	width: 100%;
+	margin-top: 92px;
+	height: 160px;
+	text-align: center;
+	color: #fff;
+	padding-top: 30px;
+}
+
+.introducao-interna h1 {
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.introducao-interna h1:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 6px auto 10px auto;
+}
+
+.produtos {
+	padding: 100px 0;
+	margin-top: 3px;
+}
+
+.produtos_lista li{
+	background: #fffaf2;
+	box-shadow: 3px 4px 4px silver;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bold;
+	color: rgb(107,0,5);
+}
+
+.produtos_lista li img {
+	height: 200px;
+	margin: 0 auto;
+}
+
+.produtos_lista li h3{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 3.15px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top: 20px;
+}
+
+.produtos_lista li h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fffaf2;
+	margin: 2px auto;
+}
+
+.produtos_lista li p {
+	font-size: 20px;
+	text-align: left;
+	padding: 10px 20px 20px 20px;
+}
+
+.produtos_icone {
+	background:#fffaf2;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.call {
+	padding-top: 40px;
+	text-align: center;
+	clear: both;
+}
+
 /*Footer*/
 
 footer {
 	background: green;
   bottom: 0;
+  position: fixed;
   width: 100%;
   text-align: center;
 }
@@ -302,6 +386,10 @@ footer:hover {
 
 footer a{
 	color: #FFF;
+}
+
+.cardapio {
+	margin-bottom: 60px;
 }
 
 /*JAVASCRIPT*/
